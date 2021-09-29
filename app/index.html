@@ -1,15 +1,219 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ФРЭШОК Онлайн маркет | Главная страница</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!--НЕ РАЗОБРАЛСЯ ПОЧЕМУ ФАВИКОН НЕ РАБОТАЕТ-->
 </head>
-<body>
 
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="header-top__inner container">
+        <div class="header-top__item">
+          <a class="header-top__link header-top__link--track" href="#">адрес и время доставки</a>
+          <a class="header-top__link header-top__link--phone" href="#">горячая линия 24/7</a>
+        </div>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">доставка</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">о нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">новости</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="header-bottom__inner container">
+        <a class="header__logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+
+        <label class="header__filter" for="check-1">
+          <input class="header__filter-input" type="checkbox" id="check-1" />
+          <div class="header__catalog">Каталог продуктов</div>
+          <ul class="menu__filter">
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Овощи и фрукты</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Бакалея</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Молочные продукты</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Хлеб</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Мясо</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Колбаса</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Рыба</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Алкоголь</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Напитки</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Торты</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Мясо</a>
+            </li>
+            <li class="menu__filter-item">
+              <a class="menu__filter-link" href="#">Чай, кофе</a>
+            </li>
+          </ul>
+        </label>
+
+        <form class="header__form" action="#">
+          <input class="header__input" type="search" placeholder="Найти в магазине ...">
+          <button class="header__btn" type="submit">поиск</button>
+        </form>
+
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <img class="user-nav__img" src="images/icons/user.svg" alt="user-icon">
+          </a>
+          <a class="user-nav__link" href="#">
+            <img class="user-nav__img" src="images/icons/heart.svg" alt="favorite-icon">
+            <span class="user-nav__num">12</span>
+          </a>
+          <a class="user-nav__link" href="#">
+            <img class="user-nav__img" src="images/icons/cart.svg" alt="cart-icon">
+            <span class="user-nav__num">12</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top container">
+      <a class="footer__logo" href="#">
+        <img class="logo__img" src="images/logo.png" alt="logo">
+      </a>
+
+      <form class="footer-top__form" action="#">
+        <p class="footer-top__form-text">Следите за нашими акциями</p>
+        <div class="footer-top__form-inner">
+        <input class="footer-top__form-input" type="email" placeholder="email@email.com">
+        <button class="footer-top__form-btn" type="submit">подписаться</button>
+      </div>
+      </form>
+
+      <div class="footer-top__items footer-top__nav">
+        <ul class="footer-top__nav-list">
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">О нас</a>
+          </li>
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Контакты</a>
+          </li>
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Публичная оферта</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-top__items footer-top__nav">
+        <ul class="footer-top__nav-list">
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Оплата и доставка</a>
+          </li>
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Вакансии</a>
+          </li>
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Акции</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-top__items footer-top__nav">
+        <ul class="footer-top__nav-list">
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Отзывы</a>
+          </li>
+          <li class="footer-top__nav-item">
+            <a class="footer-top__link" href="#">Новости</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-top__items footer-top__contact">
+        <a class="footer-top__link footer-top__phone" href="tel: +7907288365">
+          Горячая линия +7 907 288 365
+        </a>
+
+        <a class="footer-top__link footer-top__address" href="#">
+          Санкт-Петербург, ул. Ленина, 1
+        </a>
+
+        <ul class="footer-top__social-list">
+          <li class="footer-top__social-item">
+            <a href="" class="footer-top__social-link">
+              <img src="images/social-icons/facebook.svg" alt="social-icon">
+            </a>
+          </li>
+          <li class="footer-top__social-item">
+            <a href="" class="footer-top__social-link">
+              <img src="images/social-icons/youtube.svg" alt="social-icon">
+            </a>
+          </li>
+          <li class="footer-top__social-item">
+            <a href="" class="footer-top__social-link">
+              <img src="images/social-icons/telegram.svg" alt="social-icon">
+            </a>
+          </li>
+          <li class="footer-top__social-item">
+            <a href="" class="footer-top__social-link">
+              <img src="images/social-icons/instagram.svg" alt="social-icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="footer__border">
+
+    <div class="footer-bottom container">
+      <p class="footer-bottom__copy">
+        © 2021 фрешок
+      </p>
+
+      <div class="footer-bottom__accept">
+        <img class="footer-bottom__img" src="images/icons/visa.svg" alt="we accept visa">
+        <img class="footer-bottom__img" src="images/icons/mastercard.svg" alt="we accept mastercard">
+      </div>
+    </div>
+  </footer>
 
   <script src="js/main.min.js"></script>
 </body>
+
 </html>
